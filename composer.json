@@ -1,0 +1,28 @@
+{
+  "name": "serbanghita/selenium-setup-webdriver",
+  "license": "MIT",
+  "keywords": ["selenium", "selenium setup", "webdriver"],
+  "authors": [
+    {
+      "name": "Bogdan Anton",
+      "email": "contact@bogdananton.ro",
+      "role": "Developer"
+    },
+    {
+      "name": "Serban Ghita",
+      "email": "serbanghita@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^5.4",
+    "facebook/webdriver": "1.0.*",
+    "bogdananton/selenium-setup": "4.0.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "SeleniumSetupWebDriver\\": "lib/",
+      "SeleniumSetupTests\\": "tests/"
+    }
+  }
+}
