@@ -1,5 +1,5 @@
 <?php
-// Use composers autoload.php if available
+// Use composer's autoload.php if available
 if (file_exists(dirname(__FILE__) . '/../vendor/autoload.php')) {
     require_once dirname(__FILE__) . '/../vendor/autoload.php';
 } elseif (file_exists(dirname(__FILE__) . '/../../../autoload.php')) {
