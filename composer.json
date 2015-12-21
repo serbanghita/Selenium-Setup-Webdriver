@@ -16,8 +16,7 @@
   ],
   "require": {
     "php": "^5.4",
-    "facebook/webdriver": "1.0.*",
-    "bogdananton/selenium-setup": "4.0.x-dev"
+    "facebook/webdriver": "1.0.*"
   },
   "autoload": {
     "psr-4": {
