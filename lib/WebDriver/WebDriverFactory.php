@@ -21,7 +21,8 @@ class WebDriverFactory
             WebDriverCapabilityType::BROWSER_NAME => $config->getBrowserName(),
         ];
 
-        if (empty($config->getBrowserCapabilities())) {
+        $browserCapabilities = $config->getBrowserCapabilities();
+        if (empty($browserCapabilities)) {
             if (!$config->getBrowserProxyHost() && !$config->getBrowserProxyPort()) {
                 $config->setBrowserCapability(WebDriverCapabilityType::PROXY, [
                     'proxyType' => 'manual',
