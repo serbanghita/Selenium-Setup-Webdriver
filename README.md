@@ -20,6 +20,8 @@ It also comes with a `BrowserTestCase` that you can use by extending your test c
 1. `phpunit -c phpunit.xml` - will perform the checks from [tests](tests)
     1. Tinker with `phpunit.xml` if you want fast changes in your setup. Eg. connecting to a different Selenium host and port.
 
+# Usage
+
 Now that you have validated your environment setup, you have two options:
 
 1. Use `Selenium-Setup-Webdriver` as a dependency in your test project. When writing tests, extend `SeleniumSetupWebDriver\TestCase\BrowserTestCase`.
