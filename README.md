@@ -18,7 +18,8 @@ It also comes with a `BrowserTestCase` that you can use by extending your test c
 1. `cd Selenium-Setup-Webdriver`
 1. `composer install`
 1. `phpunit -c phpunit.xml` - will perform the checks from [tests](tests)
-    1. Tinker with `phpunit.xml` if you want fast changes in your setup. Eg. connecting to a different Selenium host and port.
+    1. Tinker with `phpunit.xml` if you want fast changes in your setup (proxy, selenium server, specific browser). Eg. connecting to a different Selenium host and port.
+    2. For extending your tests you need to override `setUp` method from `BrowserTestCase` and use your custom webdriver settings or the predefined from `SeleniumSetupWebDriver\WebDriver\WebDriverFactory`.
 
 # Usage
 
